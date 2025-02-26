@@ -63,7 +63,7 @@ public class GoogleSuggestionTask extends BaseClass{
 		{
 			System.out.println("printing selected text...."+e.getText());
 		}
-		
+		System.out.println("made changes.......");
 	}
 	
 
