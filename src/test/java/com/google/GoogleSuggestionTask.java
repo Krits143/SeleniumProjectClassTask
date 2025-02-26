@@ -62,8 +62,14 @@ public class GoogleSuggestionTask extends BaseClass{
 		for(WebElement e:selectedSearchList)
 		{
 			System.out.println("printing selected text...."+e.getText());
+			if(e.getText().endsWith("Marina")) {
+				System.out.println("printing only marina beach");
+			}
 		}
-		System.out.println("made changes.......");
+
+		
+       System.out.println("made changes.......");
+
 	}
 	
 
